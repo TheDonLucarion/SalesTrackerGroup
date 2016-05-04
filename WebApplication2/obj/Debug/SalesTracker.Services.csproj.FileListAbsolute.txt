@@ -45,7 +45,6 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\WebApplica
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\WebApplication2.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\EntityFramework.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\EntityFramework.SqlServer.dll
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\WebApplication1.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\WebApplication3.dll

@@ -54,3 +54,6 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\bin\Microsoft.
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\SalesTracker.Data.csprojResolveAssemblyReference.cache
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.pdb
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.Migrations.InitialCreate.resources
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.Migrations.Datetime2.resources

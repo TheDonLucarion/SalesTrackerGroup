@@ -95,8 +95,25 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Migrations\201605031519586_InitialCreate.cs" />
+    <Compile Include="Migrations\201605031519586_InitialCreate.Designer.cs">
+      <DependentUpon>201605031519586_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201605041950351_Datetime2.cs" />
+    <Compile Include="Migrations\201605041950351_Datetime2.Designer.cs">
+      <DependentUpon>201605041950351_Datetime2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201605031519586_InitialCreate.resx">
+      <DependentUpon>201605031519586_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605041950351_Datetime2.resx">
+      <DependentUpon>201605041950351_Datetime2.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

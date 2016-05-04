@@ -20,6 +20,7 @@ namespace SalesTracker.Data
         public string Title { get; set; }
 
         [Required]
+        [Column(TypeName ="datetime2")]
         public DateTime Date { get; set; }
 
         [Required]
