@@ -104,7 +104,6 @@ namespace ElevenNote.Services
 
                 // TODO: Handle note not found
 
-                entity.Title = vm.Title;
                 entity.SalesId = vm.SalesId;
                 entity.Date = vm.Date;
                 entity.Client = vm.Client;

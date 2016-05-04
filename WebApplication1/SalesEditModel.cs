@@ -11,11 +11,9 @@ namespace WebApplication1
         [Required]
         public int SalesId { get; set; }
 
-        [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least two characters")]
-        [MaxLength(128)]
-        public string Title { get; set; }
-
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Date")]
         [Required]
         public DateTime Date { get; set; }
 
@@ -34,6 +32,5 @@ namespace WebApplication1
         [Required]
         public string Source { get; set; }
 
-        public override string ToString() => $"[New] {Title}";
     }
 }

@@ -15,7 +15,7 @@ namespace WebApplication1
         public string Title { get; set; }
 
         [DataType(DataType.Date)]
-        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         [Display(Name = "Date")]
         [Required]
         public DateTime Date { get; set; }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -11,7 +12,10 @@ namespace WebApplication1
         public int SalesId { get; set; }
        
         public string Title { get; set; }
-        
+
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Date")]
         public DateTime Date { get; set; }
 
         public string Client { get; set; }

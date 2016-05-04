@@ -69,7 +69,6 @@ namespace ElevenNote.Web.Controllers
                 new SalesEditModel
                 {
                     SalesId = detail.SalesId,
-                    Title = detail.Title,
                     Date = detail.Date,
                     Client = detail.Client,
                     Address = detail.Address,
