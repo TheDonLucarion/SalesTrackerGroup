@@ -57,3 +57,8 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebA
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.Migrations.InitialCreate.resources
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.Migrations.Datetime2.resources
+C:\Users\mifiore\Documents\Projects\SalesTracker\WebApplication3\obj\Debug\WebApplication3.Migrations.InitialCreate.resources
+C:\Users\mifiore\Documents\Projects\SalesTracker\WebApplication3\obj\Debug\WebApplication3.Migrations.Datetime2.resources
+C:\Users\mifiore\Documents\Projects\SalesTracker\WebApplication3\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
+C:\Users\mifiore\Documents\Projects\SalesTracker\WebApplication3\obj\Debug\WebApplication3.Migrations.RemovedTitle.resources
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication3\obj\Debug\WebApplication3.Migrations.RemovedTitle.resources

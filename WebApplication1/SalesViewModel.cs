@@ -10,8 +10,6 @@ namespace WebApplication1
     {
 
         public int SalesId { get; set; }
-       
-        public string Title { get; set; }
 
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
@@ -27,8 +25,5 @@ namespace WebApplication1
         public double Commission { get; set; }
 
         public string Source { get; set; }
-
-        public override string ToString() => $"[{SalesId}] {Title}";
-
     }
 }

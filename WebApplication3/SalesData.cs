@@ -17,9 +17,6 @@ namespace SalesTracker.Data
         public Guid OwnerId { get; set; }
 
         [Required]
-        public string Title { get; set; }
-
-        [Required]
         [Column(TypeName ="datetime2")]
         public DateTime Date { get; set; }
 

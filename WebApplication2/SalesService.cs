@@ -30,7 +30,6 @@ namespace ElevenNote.Services
                                 new SalesViewModel
                                 {
                                     SalesId = e.SalesId,
-                                    Title = e.Title,
                                     Date = e.Date,
                                     Client = e.Client,
                                     Address = e.Address,
@@ -60,7 +59,6 @@ namespace ElevenNote.Services
                 new SalesDetailModel
                 {
                     SalesId = entity.SalesId,
-                    Title = entity.Title,
                     Date = entity.Date,
                     Client = entity.Client,
                     Address = entity.Address,
@@ -78,7 +76,6 @@ namespace ElevenNote.Services
                     new SalesData
                     {
                         OwnerId = _userId,
-                        Title = vm.Title,
                         Date = vm.Date,
                         Client = vm.Client,
                         Address = vm.Address,
