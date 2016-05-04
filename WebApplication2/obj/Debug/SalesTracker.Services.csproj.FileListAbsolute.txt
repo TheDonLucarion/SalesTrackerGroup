@@ -59,3 +59,4 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\bin\Microsoft.
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\obj\Debug\SalesTracker.Services.csprojResolveAssemblyReference.cache
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.xml

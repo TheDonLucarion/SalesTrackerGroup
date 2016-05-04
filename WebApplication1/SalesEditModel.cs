@@ -12,11 +12,6 @@ namespace WebApplication1
         public int SalesId { get; set; }
 
         [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least two characters")]
-        [MaxLength(128)]
-        public string Title { get; set; }
-
-        [Required]
         public DateTime Date { get; set; }
 
         [Required]
@@ -33,7 +28,5 @@ namespace WebApplication1
 
         [Required]
         public string Source { get; set; }
-
-        public override string ToString() => $"[New] {Title}";
     }
 }

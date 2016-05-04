@@ -9,8 +9,6 @@ namespace WebApplication1
     {
 
         public int SalesId { get; set; }
-       
-        public string Title { get; set; }
         
         public DateTime Date { get; set; }
 
@@ -23,8 +21,5 @@ namespace WebApplication1
         public double Commission { get; set; }
 
         public string Source { get; set; }
-
-        public override string ToString() => $"[{SalesId}] {Title}";
-
     }
 }

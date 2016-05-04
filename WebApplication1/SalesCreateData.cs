@@ -9,11 +9,6 @@ namespace WebApplication1
 {
     public class SalesCreateData
     {
-        [Required]
-        [MinLength(2, ErrorMessage = "Please enter at least two characters")]
-        [MaxLength(128)]
-        public string Title { get; set; }
-
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         [Display(Name = "Date")]
@@ -34,8 +29,5 @@ namespace WebApplication1
 
         [Required]
         public string Source { get; set; }
-
-        public override string ToString() => $"[New] {Title}";
-
     }
 }
