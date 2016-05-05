@@ -108,7 +108,6 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\Sales
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\SalesTracker.Services.pdb
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\EntityFramework.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\EntityFramework.SqlServer.dll
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\SalesTracker.Data.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\SalesTracker.Models.dll

@@ -148,3 +148,7 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.D
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Models.pdb
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Services.pdb
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Data.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.xml
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.Mvc.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.Mvc.xml

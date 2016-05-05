@@ -1,8 +1,11 @@
 ﻿using System;
+using System.Linq;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using SalesTracker.Models;
 using SalesTracker.Services;
+using SalesTracker.Data;
+using PagedList;
 
 namespace ElevenNote.Web.Controllers
 {
@@ -10,6 +13,7 @@ namespace ElevenNote.Web.Controllers
     public class SalesController : Controller
     {
         private readonly Lazy<SalesService> _svc;
+        private SalesTrackerDbContext db = new SalesTrackerDbContext();
 
         public SalesController()
         {
@@ -22,11 +26,67 @@ namespace ElevenNote.Web.Controllers
                     });
         }
 
-        public ActionResult Index()
+        public ActionResult Index(string sortOrder, string curentFilter, int? page)
         {
-            var notes = _svc.Value.GetSales();
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.FirstNameSort = String.IsNullOrEmpty(sortOrder) ? "FirstNameDesc" : "";
+            ViewBag.LastNameSort = String.IsNullOrEmpty(sortOrder) ? "LastNameDesc" : "LastName";
+            ViewBag.Address = String.IsNullOrEmpty(sortOrder) ? "AdressDesc" : "Address";
 
-            return View(notes);
+            ViewBag.DateSort = sortOrder == "Date" ? "DateDesc" : "Date";
+
+            var sales = from s in db.Sales
+                        select s;
+            //Sorting
+            switch (sortOrder)
+            {
+                case "FirstNameDesc":
+                    sales = sales.OrderByDescending(s => s.FirstName);
+                    break;
+                case "Date":
+                    sales = sales.OrderBy(s => s.Date);
+                    break;
+                case "DateDesc":
+                    sales = sales.OrderByDescending(s => s.Date);
+                    break;
+                case "LastName":
+                    sales = sales.OrderBy(s => s.LastName);
+                    break;
+                case "LastNameDesc":
+                    sales = sales.OrderByDescending(s => s.LastName);
+                    break;
+                case "Address":
+                    sales = sales.OrderBy(s => s.LastName);
+                    break;
+                case "AddressDesc":
+                    sales = sales.OrderByDescending(s => s.LastName);
+                    break;
+                case "SalesPrice":
+                    sales = sales.OrderBy(s => s.SalesPrice);
+                    break;
+                case "SalesPriceDesc":
+                    sales = sales.OrderByDescending(s => s.SalesPrice);
+                    break;
+                case "Commission":
+                    sales = sales.OrderBy(s => s.Commission);
+                    break;
+                case "CommissionDesc":
+                    sales = sales.OrderByDescending(s => s.Commission);
+                    break;
+                case "Source":
+                    sales = sales.OrderBy(s => s.LastName);
+                    break;
+                case "SourceDesc":
+                    sales = sales.OrderByDescending(s => s.LastName);
+                    break;
+                default:
+                    sales = sales.OrderBy(s => s.FirstName);
+                    break;
+            }
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+            //var notes = _svc.Value.GetSales();
+            return View(sales.ToPagedList(pageNumber, pageSize));
         }
 
         public ActionResult Create()
