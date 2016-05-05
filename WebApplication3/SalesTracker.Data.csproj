@@ -107,6 +107,10 @@
     <Compile Include="Migrations\201605042012147_RemovedTitle.Designer.cs">
       <DependentUpon>201605042012147_RemovedTitle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605051431276_AddedMoreFields.cs" />
+    <Compile Include="Migrations\201605051431276_AddedMoreFields.Designer.cs">
+      <DependentUpon>201605051431276_AddedMoreFields.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesData.cs" />
@@ -120,6 +124,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605042012147_RemovedTitle.resx">
       <DependentUpon>201605042012147_RemovedTitle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605051431276_AddedMoreFields.resx">
+      <DependentUpon>201605051431276_AddedMoreFields.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

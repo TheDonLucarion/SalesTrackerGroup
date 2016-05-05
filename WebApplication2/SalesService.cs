@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using SalesTracker.Data;
 using WebApplication1;
 
@@ -32,6 +30,7 @@ namespace ElevenNote.Services
                                     SalesId = e.SalesId,
                                     Date = e.Date,
                                     FirstName = e.FirstName,
+                                    LastName = e.LastName,
                                     Address = e.Address,
                                     SalesPrice = e.SalesPrice,
                                     Commission = e.Commission,
@@ -60,8 +59,18 @@ namespace ElevenNote.Services
                 {
                     Date = entity.Date,
                     FirstName = entity.FirstName,
+                    LastName = entity.LastName,
                     Address = entity.Address,
                     SalesPrice = entity.SalesPrice,
+                    TotalCommission = entity.TotalCommission,
+                    ThirdPartyReferral = entity.ThirdPartyReferral,
+                    RoyaltyFee = entity.RoyaltyFee,
+                    AgentSplit = entity.AgentSplit,
+                    ReloSplit = entity.ReloSplit,
+                    Base = entity.Base,
+                    APCF = entity.APCF,
+                    EnrollPCC = entity.EnrollPCC,
+                    CharitbaleContribution = entity.CharitbaleContribution,
                     Commission = entity.Commission,
                     Source = entity.Source
                 };
@@ -77,8 +86,18 @@ namespace ElevenNote.Services
                         OwnerId = _userId,
                         Date = vm.Date,
                         FirstName = vm.FirstName,
+                        LastName = vm.LastName,
                         Address = vm.Address,
                         SalesPrice = vm.SalesPrice,
+                        TotalCommission = vm.TotalCommission,
+                        ThirdPartyReferral = vm.ThirdPartyReferral,
+                        RoyaltyFee = vm.RoyaltyFee,
+                        AgentSplit = vm.AgentSplit,
+                        ReloSplit = vm.ReloSplit,
+                        Base = vm.Base,
+                        APCF = vm.APCF,
+                        EnrollPCC = vm.EnrollPCC,
+                        CharitbaleContribution = vm.CharitbaleContribution,
                         Commission = vm.Commission,
                         Source = vm.Source
                     };
@@ -103,10 +122,21 @@ namespace ElevenNote.Services
                 entity.SalesId = vm.SalesId;
                 entity.Date = vm.Date;
                 entity.FirstName = vm.FirstName;
+                entity.LastName = vm.LastName;
                 entity.Address = vm.Address;
                 entity.SalesPrice = vm.SalesPrice;
+                entity.TotalCommission = vm.TotalCommission;
+                entity.ThirdPartyReferral = vm.ThirdPartyReferral;
+                entity.RoyaltyFee = vm.RoyaltyFee;
+                entity.AgentSplit = vm.AgentSplit;
+                entity.ReloSplit = vm.ReloSplit;
+                entity.Base = vm.Base;
+                entity.APCF = vm.APCF;
+                entity.EnrollPCC = vm.EnrollPCC;
+                entity.CharitbaleContribution = vm.CharitbaleContribution;
                 entity.Commission = vm.Commission;
                 entity.Source = vm.Source;
+
                 return ctx.SaveChanges() == 1;
             }
         }
