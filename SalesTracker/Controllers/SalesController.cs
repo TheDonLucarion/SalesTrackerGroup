@@ -29,11 +29,20 @@ namespace ElevenNote.Web.Controllers
         public ActionResult Index(string sortOrder, string curentFilter, int? page)
         {
             ViewBag.CurrentSort = sortOrder;
-            ViewBag.FirstNameSort = String.IsNullOrEmpty(sortOrder) ? "FirstNameDesc" : "";
-            ViewBag.LastNameSort = String.IsNullOrEmpty(sortOrder) ? "LastNameDesc" : "LastName";
-            ViewBag.Address = String.IsNullOrEmpty(sortOrder) ? "AdressDesc" : "Address";
-
             ViewBag.DateSort = sortOrder == "Date" ? "DateDesc" : "Date";
+            ViewBag.FirstNameSort = String.IsNullOrEmpty(sortOrder) ? "FirstNameDesc" : "";
+            ViewBag.LastNameSort = sortOrder == "LastName" ? "LastNameDesc" : "LastName";
+            ViewBag.AddressSort = sortOrder == "Address" ? "AdressDesc" : "Address";
+            //ViewBag.LastNameSort = String.IsNullOrEmpty(sortOrder) ? "LastNameDesc" : "LastName";
+            //ViewBag.AddressSort = String.IsNullOrEmpty(sortOrder) ? "AdressDesc" : "Address";
+            //ViewBag.SourceSort = String.IsNullOrEmpty(sortOrder) ? "SourceDesc" : "Source";
+
+
+            ViewBag.SalesPriceSort = sortOrder == "SalesPrice" ? "SalesPriceDesc" : "SalesPrice";
+            ViewBag.CommissionSort = sortOrder == "Commission" ? "CommissionDesc" : "Commission";
+            ViewBag.SourceSort = sortOrder == "Source" ? "SourceDesc" : "Source";
+
+
 
             var sales = from s in db.Sales
                         select s;
@@ -56,10 +65,10 @@ namespace ElevenNote.Web.Controllers
                     sales = sales.OrderByDescending(s => s.LastName);
                     break;
                 case "Address":
-                    sales = sales.OrderBy(s => s.LastName);
+                    sales = sales.OrderBy(s => s.Address);
                     break;
                 case "AddressDesc":
-                    sales = sales.OrderByDescending(s => s.LastName);
+                    sales = sales.OrderByDescending(s => s.Address);
                     break;
                 case "SalesPrice":
                     sales = sales.OrderBy(s => s.SalesPrice);
@@ -74,16 +83,16 @@ namespace ElevenNote.Web.Controllers
                     sales = sales.OrderByDescending(s => s.Commission);
                     break;
                 case "Source":
-                    sales = sales.OrderBy(s => s.LastName);
+                    sales = sales.OrderBy(s => s.Source);
                     break;
                 case "SourceDesc":
-                    sales = sales.OrderByDescending(s => s.LastName);
+                    sales = sales.OrderByDescending(s => s.Source);
                     break;
                 default:
                     sales = sales.OrderBy(s => s.FirstName);
                     break;
             }
-            int pageSize = 3;
+            int pageSize = 10;
             int pageNumber = (page ?? 1);
             //var notes = _svc.Value.GetSales();
             return View(sales.ToPagedList(pageNumber, pageSize));
