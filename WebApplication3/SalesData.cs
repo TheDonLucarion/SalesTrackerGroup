@@ -30,6 +30,33 @@ namespace SalesTracker.Data
         public double SalesPrice { get; set; }
 
         [Required]
+        public float TotalCommission { get; set; }
+
+        [Required]
+        public float? ThirdPartyReferral { get; set; }
+
+        [Required]
+        public float RoyaltyFee { get; set; }
+
+        [Required]
+        public float? AgentSplit { get; set; }
+
+        [Required]
+        public float ReloSplit { get; set; }
+
+        [Required]
+        public float Base { get; set; }
+
+        [Required]
+        public float APCF { get; set; }
+
+        [Required]
+        public float? EnrollPCC { get; set; }
+
+        [Required]
+        public float? CharitbaleContribution { get; set; }
+
+        [Required]
         public double Commission { get; set; }
 
         [Required]
