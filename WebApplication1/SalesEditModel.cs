@@ -8,9 +8,6 @@ namespace WebApplication1
 {
     public class SalesEditModel
     {
-        [Required]
-        public int SalesId { get; set; }
-
         [DataType(DataType.Date)]
         [DisplayFormat(DataFormatString = "{0:MM-dd-yyyy}", ApplyFormatInEditMode = true)]
         [Display(Name = "Date")]
@@ -18,7 +15,10 @@ namespace WebApplication1
         public DateTime Date { get; set; }
 
         [Required]
-        public string Client { get; set; }
+        public string FirstName { get; set; }
+
+        [Required]
+        public string LastName { get; set; }
 
         [Required]
         public string Address { get; set; }
@@ -27,7 +27,30 @@ namespace WebApplication1
         public double SalesPrice { get; set; }
 
         [Required]
-        public double Commission { get; set; }
+        public double TotalCommission { get; set; }
+        [Required]
+        public float? ThirdPartyReferral { get; set; }
+
+        [Required]
+        public float RoyaltyFee { get; set; }
+
+        [Required]
+        public float? AgentSplit { get; set; }
+
+        [Required]
+        public float ReloSplit { get; set; }
+
+        [Required]
+        public float Base { get; set; }
+
+        [Required]
+        public float APCF { get; set; }
+
+        [Required]
+        public float? EnrollPCC { get; set; }
+
+        [Required]
+        public float? CharitbaleContribution { get; set; }
 
         [Required]
         public string Source { get; set; }
