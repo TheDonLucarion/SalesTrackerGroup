@@ -1,0 +1,41 @@
+Enter Simple data
+
+Take Commisions input, multiply it by sales price and show it back in the tables
+	add all commissions of users into one cell at the bottom (maybe in another view)
+
+add buyer vs seller column
+
+Get rid of SalesId and title on view page
+Get rid of Title
+
+Fix date to just display Date and not time
+
+Add sorting and filtering
+
+Add application settings
+
+Build Api
+
+Take xcel web form data/input data (API???)
+
+---------------------------------------------------------
+
+total commission = user inputed
+
+(optional) 3rd party referral = % of total commision user input
+
+royalty fee = 6% of total commission after 3rd party
+
+(optional) agent split = Split is _% after royalty
+
+(optional) Relo split = Split is _% after total commission above
+
+base = 20% of total Commission after above
+
+Agent Paid Comm Fee = subtract user input
+
+(optional) Enroll in PCC = -47 of total commission from above
+
+(optional) charitable contribution = user input donation from total commission from above
+
+return commission
