@@ -15,9 +15,9 @@ namespace WebApplication1
 
         public string Address { get; set; }
 
-        public double SalesPrice { get; set; }
+        public float SalesPrice { get; set; }
 
-        public double Commission { get; set; }
+        public float Commission { get; set; }
 
         public string Source { get; set; }
     }

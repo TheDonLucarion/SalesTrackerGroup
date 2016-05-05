@@ -22,10 +22,10 @@ namespace WebApplication1
         public string Address { get; set; }
 
         [Required]
-        public double SalesPrice { get; set; }
+        public float SalesPrice { get; set; }
 
         [Required]
-        public double Commission { get; set; }
+        public float Commission { get; set; }
 
         [Required]
         public string Source { get; set; }
