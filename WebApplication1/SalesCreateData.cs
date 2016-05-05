@@ -25,10 +25,11 @@ namespace WebApplication1
         public string Address { get; set; }
 
         [Required]
-        public double SalesPrice { get; set; }
+        public float SalesPrice { get; set; }
 
         [Required]
-        public double TotalCommission { get; set; }
+public float TotalCommission { get; set; }
+
         [Required]
         public float? ThirdPartyReferral { get; set; }
 
@@ -52,6 +53,8 @@ namespace WebApplication1
 
         [Required]
         public float? CharitbaleContribution { get; set; }
+
+        public float Commission { get; set; }
 
         [Required]
         public string Source { get; set; }

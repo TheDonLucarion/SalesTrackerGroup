@@ -31,7 +31,7 @@ namespace ElevenNote.Services
                                 {
                                     SalesId = e.SalesId,
                                     Date = e.Date,
-                                    Client = e.Client,
+                                    FirstName = e.FirstName,
                                     Address = e.Address,
                                     SalesPrice = e.SalesPrice,
                                     Commission = e.Commission,
@@ -58,9 +58,8 @@ namespace ElevenNote.Services
             return
                 new SalesDetailModel
                 {
-                    SalesId = entity.SalesId,
                     Date = entity.Date,
-                    Client = entity.Client,
+                    FirstName = entity.FirstName,
                     Address = entity.Address,
                     SalesPrice = entity.SalesPrice,
                     Commission = entity.Commission,
@@ -77,7 +76,7 @@ namespace ElevenNote.Services
                     {
                         OwnerId = _userId,
                         Date = vm.Date,
-                        Client = vm.Client,
+                        FirstName = vm.FirstName,
                         Address = vm.Address,
                         SalesPrice = vm.SalesPrice,
                         Commission = vm.Commission,
@@ -103,7 +102,7 @@ namespace ElevenNote.Services
 
                 entity.SalesId = vm.SalesId;
                 entity.Date = vm.Date;
-                entity.Client = vm.Client;
+                entity.FirstName = vm.FirstName;
                 entity.Address = vm.Address;
                 entity.SalesPrice = vm.SalesPrice;
                 entity.Commission = vm.Commission;

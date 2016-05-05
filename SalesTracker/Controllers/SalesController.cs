@@ -68,9 +68,8 @@ namespace ElevenNote.Web.Controllers
             var sale =
                 new SalesEditModel
                 {
-                    SalesId = detail.SalesId,
                     Date = detail.Date,
-                    Client = detail.Client,
+                    FirstName = detail.FirstName,
                     Address = detail.Address,
                     SalesPrice = detail.SalesPrice,
                     Commission = detail.Commission,

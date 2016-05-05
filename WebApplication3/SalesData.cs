@@ -30,7 +30,7 @@ namespace SalesTracker.Data
         public string Address { get; set; }
 
         [Required]
-        public double SalesPrice { get; set; }
+        public float SalesPrice { get; set; }
 
         [Required]
         public float TotalCommission { get; set; }
@@ -60,7 +60,7 @@ namespace SalesTracker.Data
         public float? CharitbaleContribution { get; set; }
 
         [Required]
-        public double Commission { get; set; }
+        public float Commission { get; set; }
 
         [Required]
         public string Source { get; set; }

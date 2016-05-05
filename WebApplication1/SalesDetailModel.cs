@@ -16,9 +16,9 @@ namespace WebApplication1
 
         public string Address { get; set; }
 
-        public double SalesPrice { get; set; }
+        public float SalesPrice { get; set; }
 
-        public double TotalCommission { get; set; }
+        public float TotalCommission { get; set; }
 
         public float? ThirdPartyReferral { get; set; }
 
@@ -35,6 +35,9 @@ namespace WebApplication1
         public float? EnrollPCC { get; set; }
 
         public float? CharitbaleContribution { get; set; }
+
+        public float Commission { get; set; }
+
 
         public string Source { get; set; }
     }
