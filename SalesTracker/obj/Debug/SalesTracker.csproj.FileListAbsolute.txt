@@ -114,12 +114,7 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.Ra
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.WebPages.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.WebPages.Razor.dll
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication1.dll
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication2.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebGrease.dll
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication3.dll
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication1.pdb
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication2.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.Helpers.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\System.Web.Mvc.xml
@@ -144,7 +139,12 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\Microsoft.Owi
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\WebApplication3.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\obj\Debug\SalesTracker.csprojResolveAssemblyReference.cache
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\obj\Debug\SalesTracker.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\obj\Debug\SalesTracker.pdb
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Models.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Services.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Data.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Models.pdb
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Services.pdb
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Data.pdb

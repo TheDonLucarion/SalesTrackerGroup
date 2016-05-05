@@ -255,11 +255,11 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication1\SalesTracker.Models.csproj">
+    <ProjectReference Include="..\SalesTracker.Models\SalesTracker.Models.csproj">
       <Project>{ffcf7dcb-cfc3-41c5-86a0-40835adb09d8}</Project>
       <Name>SalesTracker.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WebApplication2\SalesTracker.Services.csproj">
+    <ProjectReference Include="..\SalesTracker.Services\SalesTracker.Services.csproj">
       <Project>{4adc2533-7d99-4494-9f05-081dccec42c0}</Project>
       <Name>SalesTracker.Services</Name>
     </ProjectReference>
