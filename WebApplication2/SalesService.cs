@@ -57,6 +57,7 @@ namespace ElevenNote.Services
             return
                 new SalesDetailModel
                 {
+                    SalesId = entity.SalesId,
                     Date = entity.Date,
                     FirstName = entity.FirstName,
                     LastName = entity.LastName,

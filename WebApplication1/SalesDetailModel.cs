@@ -7,7 +7,8 @@ namespace WebApplication1
 {
     public class SalesDetailModel
     {
-        
+        public int SalesId { get; set; }
+
         public DateTime Date { get; set; }
 
         public string FirstName { get; set; }
@@ -37,7 +38,6 @@ namespace WebApplication1
         public float? CharitbaleContribution { get; set; }
 
         public float Commission { get; set; }
-
 
         public string Source { get; set; }
     }
