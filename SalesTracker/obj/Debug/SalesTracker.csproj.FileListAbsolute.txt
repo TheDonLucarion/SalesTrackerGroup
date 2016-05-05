@@ -67,12 +67,6 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\Microsoft.Owin
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\obj\Debug\SalesTracker.csprojResolveAssemblyReference.cache
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\obj\Debug\SalesTracker.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\obj\Debug\SalesTracker.pdb
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication1.dll
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication2.dll
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication3.dll
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication1.pdb
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication2.pdb
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\WebApplication3.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\roslyn\Microsoft.CSharp.Core.targets
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\roslyn\Microsoft.VisualBasic.Core.targets
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\roslyn\VBCSCompiler.exe.config
@@ -148,3 +142,9 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Models.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Services.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.Data.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Models.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Services.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Data.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Models.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Services.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.Data.pdb

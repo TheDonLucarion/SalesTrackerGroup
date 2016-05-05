@@ -1,4 +1,4 @@
-﻿@model SalesTracker.Models.SalesEditModel
+﻿ @model SalesTracker.Models.SalesEditModel
 
 @{
     ViewBag.Title = "Edit";
@@ -21,6 +21,9 @@
             <div class="col-md-10">
                 @Html.EditorFor(m => m.Date, new { @class = "form-control", @type = "date" })
             </div>
+        </div>
+        <div class="form-group">
+            @Html.HiddenFor(m => m.SalesId, new { @class = "col-md-2 control-label" })
         </div>
 
         <div class="form-group">
