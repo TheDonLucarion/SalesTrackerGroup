@@ -124,4 +124,8 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\Sa
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.test.resources
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.MoneyDataType.resources
+<<<<<<< HEAD
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.Money.resources
+=======
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.MoneyDataType.resources
+>>>>>>> 4dcaa174487eb2c8070bccd39261800c4db3c2e3

@@ -23,8 +23,12 @@ namespace SalesTracker.Models
 
         public string Address { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         public decimal SalesPrice { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         public decimal Commission { get; set; }
 
         public string Source { get; set; }
