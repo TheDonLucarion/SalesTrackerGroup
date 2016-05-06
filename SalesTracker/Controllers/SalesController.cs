@@ -7,7 +7,7 @@ using SalesTracker.Services;
 using SalesTracker.Data;
 using PagedList;
 
-namespace ElevenNote.Web.Controllers
+namespace SalesTracker.Controllers
 {
     [Authorize]
     public class SalesController : Controller
