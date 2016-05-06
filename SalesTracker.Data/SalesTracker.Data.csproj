@@ -103,6 +103,10 @@
     <Compile Include="Migrations\201605061539555_MoneyDataType.Designer.cs">
       <DependentUpon>201605061539555_MoneyDataType.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605061555501_Money.cs" />
+    <Compile Include="Migrations\201605061555501_Money.Designer.cs">
+      <DependentUpon>201605061555501_Money.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SalesData.cs" />
@@ -113,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605061539555_MoneyDataType.resx">
       <DependentUpon>201605061539555_MoneyDataType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605061555501_Money.resx">
+      <DependentUpon>201605061555501_Money.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

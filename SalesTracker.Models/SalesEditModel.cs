@@ -32,8 +32,9 @@ namespace SalesTracker.Models
         [Required]
         public decimal SalesPrice { get; set; }
 
-        [DataType(DataType.Currency)]
-        [Column(TypeName = "money")]
+        [Required]
+        public decimal CommPercentage { get; set; }
+
         [Required]
         public decimal TotalCommission { get; set; }
 
