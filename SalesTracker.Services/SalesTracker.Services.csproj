@@ -91,6 +91,10 @@
     <Compile Include="SalesService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SalesTracker.BusinessLogic\SalesTracker.BusinessLogic.csproj">
+      <Project>{A006A8F4-E6C3-4428-AA4A-35D5B506904F}</Project>
+      <Name>SalesTracker.BusinessLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SalesTracker.Models\SalesTracker.Models.csproj">
       <Project>{FFCF7DCB-CFC3-41C5-86A0-40835ADB09D8}</Project>
       <Name>SalesTracker.Models</Name>

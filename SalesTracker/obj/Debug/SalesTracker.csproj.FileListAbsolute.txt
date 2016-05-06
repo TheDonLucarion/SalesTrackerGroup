@@ -152,3 +152,9 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.xml
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.Mvc.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\PagedList.Mvc.xml
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.Mvc.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.BusinessLogic.dll
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.xml
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.Mvc.xml
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.BusinessLogic.pdb

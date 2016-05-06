@@ -89,11 +89,6 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\bin\Microsof
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.csprojResolveAssemblyReference.cache
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.InitialCreate.resources
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.Datetime2.resources
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.RemovedTitle.resources
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.AddedMoreFields.resources
-C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.pdb
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\bin\roslyn\Microsoft.CSharp.Core.targets
@@ -129,3 +124,5 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\Web
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.pdb
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.test.resources
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache

@@ -35,7 +35,7 @@
             @Html.ActionLink("SalesPrice", "Index", new { sortOrder = ViewBag.SalesPriceSort, currentFilter = ViewBag.CurrentFilter })
         </th>
         <th>
-            @Html.ActionLink("Commission", "Index", new { sortOrder = ViewBag.CommissionSort, currentFilter = ViewBag.CurrentFilter })
+            @Html.ActionLink("Commission", "Index", new { sortOrder = ViewBag.Commission, currentFilter = ViewBag.CurrentFilter })
         </th>
         <th>
             @Html.ActionLink("Source", "Index", new { sortOrder = ViewBag.SourceSort, currentFilter = ViewBag.CurrentFilter })
@@ -81,5 +81,4 @@
 <br />
 Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
 
-@Html.PagedListPager(Model, page => Url.Action("Index",
-    new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))
+@Html.PagedListPager(Model, page => Url.Action("Index",new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

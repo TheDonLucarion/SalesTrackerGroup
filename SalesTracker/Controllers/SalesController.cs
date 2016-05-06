@@ -148,7 +148,6 @@ namespace SalesTracker.Controllers
                     APCF = detail.APCF,
                     EnrollPCC = detail.EnrollPCC,
                     CharitbaleContribution = detail.CharitbaleContribution,
-                    Commission = detail.Commission,
                     Source = detail.Source
                 };
 

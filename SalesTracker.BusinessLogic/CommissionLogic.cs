@@ -1,17 +1,13 @@
-﻿
-using SalesTracker.Models;
-using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SalesTracker.BusinessLogic
 {
     public class CommissionLogic
     {
         ICommissionLogicVars Vars = new ICommissionLogicVars();
-        List<float> Numbers;
+        List<decimal> Numbers;
 
-        public CommissionLogic(double SalesPrice, float TotalCommission, double ThirdPartyReferral, float RoyaltyFee, float AgentSplit, float ReloSplit, float Base, float APCF, float EnrollPCC, float CharitbaleContribution)
+        public CommissionLogic(decimal SalesPrice, decimal TotalCommission, decimal ThirdPartyReferral, decimal RoyaltyFee, decimal AgentSplit, decimal ReloSplit, decimal Base, decimal APCF, decimal EnrollPCC, decimal CharitbaleContribution)
         {
             Vars.SalesPrice = SalesPrice;
             Vars.TotalCommission = TotalCommission;
@@ -24,28 +20,51 @@ namespace SalesTracker.BusinessLogic
             Vars.EnrollPCC = EnrollPCC;
             Vars.CharitbaleContribution = CharitbaleContribution;
 
-            Numbers = new List<float>(new float[] { Vars.TotalCommission, Vars.RoyaltyFee, Vars.AgentSplit, Vars.ReloSplit, Vars.Base, Vars.APCF, Vars.EnrollPCC, Vars.CharitbaleContribution });
+            Numbers = new List<decimal>(new decimal[] { Vars.TotalCommission, Vars.RoyaltyFee, Vars.AgentSplit, Vars.ReloSplit, Vars.Base, Vars.APCF, Vars.EnrollPCC, Vars.CharitbaleContribution });
         }
 
-        public double DoMath()
+        public decimal DoMath()
         {
-            var Commission = 0;
+            decimal Commission = 0;
+
 
             //Converts them to percentages
-            Vars.RoyaltyFee /= 100;
-            Vars.ThirdPartyReferral /= 100;
-            Vars.ReloSplit /= 100;
-            Vars.AgentSplit /= 100;
-            Vars.Base /= 100;
+            if (Vars.RoyaltyFee != 0)
+                Vars.RoyaltyFee /= 100;
+            if (Vars.ThirdPartyReferral != 0)
+                Vars.ThirdPartyReferral /= 100;
+            if (Vars.ReloSplit != 0)
+                Vars.ReloSplit /= 100;
+            if (Vars.AgentSplit != 0)
+                Vars.AgentSplit /= 100;
+            if (Vars.Base != 0)
+                Vars.Base /= 100;
 
-            Commission = Vars.TotalCommission - (Vars.TotalCommission * Vars.ThirdPartyReferral);
-            Commission = Commission - (Commission * Vars.RoyaltyFee);
-            Commission = Commission - (Commission * Vars.AgentSplit);
-            Commission = Commission - (Commission * Vars.ReloSplit);
-            Commission = Commission - (Commission * Vars.Base);
-            Commission -= Vars.APCF;
-            Commission -= Vars.EnrollPCC;
-            Commission -= Vars.CharitbaleContribution;
+            if (Vars.ThirdPartyReferral != 0)
+                Commission = Vars.TotalCommission - (Vars.TotalCommission * Vars.ThirdPartyReferral);
+            else
+                Commission = Vars.TotalCommission;
+
+            if (Vars.RoyaltyFee != 0)
+                Commission = Commission - (Commission * Vars.RoyaltyFee);
+
+            if (Vars.AgentSplit != 0)
+                Commission = Commission - (Commission * Vars.AgentSplit);
+
+            if (Vars.ReloSplit != 0)
+                Commission = Commission - (Commission * Vars.ReloSplit);
+
+            if (Vars.Base != 0)
+                Commission = Commission - (Commission * Vars.Base);
+
+            if (Vars.APCF != 0)
+                Commission -= Vars.APCF;
+
+            if (Vars.EnrollPCC != 0)
+                Commission -= Vars.EnrollPCC;
+
+            if (Vars.CharitbaleContribution != 0)
+                Commission -= Vars.CharitbaleContribution;
 
 
             return Commission;

@@ -22,9 +22,9 @@ namespace SalesTracker.Models
 
         public string Address { get; set; }
 
-        public double SalesPrice { get; set; }
+        public decimal SalesPrice { get; set; }
 
-        public double Commission { get; set; }
+        public decimal Commission { get; set; }
 
         public string Source { get; set; }
     }

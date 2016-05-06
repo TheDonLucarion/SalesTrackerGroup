@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using SalesTracker.Data;
 using SalesTracker.Models;
+using SalesTracker.BusinessLogic;
 
 namespace SalesTracker.Services
 {
@@ -99,9 +100,12 @@ namespace SalesTracker.Services
                         APCF = vm.APCF,
                         EnrollPCC = vm.EnrollPCC,
                         CharitbaleContribution = vm.CharitbaleContribution,
-                        Commission = vm.Commission,
                         Source = vm.Source
                     };
+
+                CommissionLogic Cl = new CommissionLogic(entity.SalesPrice, entity.TotalCommission, entity.ThirdPartyReferral, entity.RoyaltyFee, entity.AgentSplit, entity.ReloSplit, entity.Base, entity.APCF, entity.EnrollPCC, entity.CharitbaleContribution);
+
+                entity.Commission = Cl.DoMath();
 
                 ctx.Sales.Add(entity);
 
@@ -135,7 +139,6 @@ namespace SalesTracker.Services
                 entity.APCF = vm.APCF;
                 entity.EnrollPCC = vm.EnrollPCC;
                 entity.CharitbaleContribution = vm.CharitbaleContribution;
-                entity.Commission = vm.Commission;
                 entity.Source = vm.Source;
 
                 return ctx.SaveChanges() == 1;

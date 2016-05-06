@@ -1,4 +1,4 @@
-namespace WebApplication3.Migrations
+namespace SalesTracker.Data.Migrations
 {
     using System;
     using System.Data.Entity;
@@ -10,7 +10,6 @@ namespace WebApplication3.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "SalesTracker.Data.SalesTrackerDbContext";
         }
 
         protected override void Seed(SalesTracker.Data.SalesTrackerDbContext context)

@@ -81,6 +81,12 @@
     <Compile Include="CommissionLogic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SalesTracker.Models\SalesTracker.Models.csproj">
+      <Project>{FFCF7DCB-CFC3-41C5-86A0-40835ADB09D8}</Project>
+      <Name>SalesTracker.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

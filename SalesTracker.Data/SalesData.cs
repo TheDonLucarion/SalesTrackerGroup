@@ -30,37 +30,37 @@ namespace SalesTracker.Data
         public string Address { get; set; }
 
         [Required]
-        public float SalesPrice { get; set; }
+        public decimal SalesPrice { get; set; }
 
         [Required]
-        public float TotalCommission { get; set; }
+        public decimal TotalCommission { get; set; }
 
         [Required]
-        public float? ThirdPartyReferral { get; set; }
+        public decimal ThirdPartyReferral { get; set; }
 
         [Required]
-        public float RoyaltyFee { get; set; }
+        public decimal RoyaltyFee { get; set; }
 
         [Required]
-        public float? AgentSplit { get; set; }
+        public decimal AgentSplit { get; set; }
 
         [Required]
-        public float ReloSplit { get; set; }
+        public decimal ReloSplit { get; set; }
 
         [Required]
-        public float Base { get; set; }
+        public decimal Base { get; set; }
 
         [Required]
-        public float APCF { get; set; }
+        public decimal APCF { get; set; }
 
         [Required]
-        public float? EnrollPCC { get; set; }
+        public decimal EnrollPCC { get; set; }
 
         [Required]
-        public float? CharitbaleContribution { get; set; }
+        public decimal CharitbaleContribution { get; set; }
 
         [Required]
-        public float Commission { get; set; }
+        public decimal Commission { get; set; }
 
         [Required]
         public string Source { get; set; }

@@ -17,27 +17,27 @@ namespace SalesTracker.BusinessLogic
 
         public string Address { get; set; }
 
-        public double SalesPrice { get; set; }
+        public decimal SalesPrice { get; set; }
 
-        public float TotalCommission { get; set; }
+        public decimal TotalCommission { get; set; }
 
-        public double ThirdPartyReferral { get; set; }
+        public decimal ThirdPartyReferral { get; set; }
 
-        public float RoyaltyFee { get; set; }
+        public decimal RoyaltyFee { get; set; }
 
-        public float AgentSplit { get; set; }
+        public decimal AgentSplit { get; set; }
 
-        public float ReloSplit { get; set; }
+        public decimal ReloSplit { get; set; }
 
-        public float Base { get; set; }
+        public decimal Base { get; set; }
 
-        public float APCF { get; set; }
+        public decimal APCF { get; set; }
 
-        public float EnrollPCC { get; set; }
+        public decimal EnrollPCC { get; set; }
 
-        public float CharitbaleContribution { get; set; }
+        public decimal CharitbaleContribution { get; set; }
 
-        public float Commission { get; set; }
+        public decimal Commission { get; set; }
 
         public string Source { get; set; }
     }
