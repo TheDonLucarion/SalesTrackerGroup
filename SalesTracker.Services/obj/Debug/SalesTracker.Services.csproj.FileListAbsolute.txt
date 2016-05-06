@@ -124,3 +124,5 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\obj\Debug
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\obj\Debug\SalesTracker.Services.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Services\bin\SalesTracker.BusinessLogic.dll
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Services\bin\SalesTracker.BusinessLogic.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\SalesTracker.BusinessLogic.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Services\bin\SalesTracker.BusinessLogic.pdb

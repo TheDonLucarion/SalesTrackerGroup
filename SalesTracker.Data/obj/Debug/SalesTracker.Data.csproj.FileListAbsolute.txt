@@ -117,12 +117,10 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\bin\Microsoft
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\bin\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.csprojResolveAssemblyReference.cache
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.InitialCreate.resources
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.Datetime2.resources
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.RemovedTitle.resources
-C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\WebApplication3.Migrations.AddedMoreFields.resources
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.dll
 C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.pdb
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.test.resources
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.csproj.GenerateResource.Cache
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.test.resources
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.MoneyDataType.resources

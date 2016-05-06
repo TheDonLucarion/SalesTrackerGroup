@@ -39,7 +39,7 @@ namespace SalesTracker.Controllers
 
 
             ViewBag.SalesPriceSort = sortOrder == "SalesPrice" ? "SalesPriceDesc" : "SalesPrice";
-            ViewBag.CommissionSort = sortOrder == "Commission" ? "CommissionDesc" : "Commission";
+            ViewBag.CommSort = sortOrder == "Commission" ? "CommissionDesc" : "Commission";
             ViewBag.SourceSort = sortOrder == "Source" ? "SourceDesc" : "Source";
 
 

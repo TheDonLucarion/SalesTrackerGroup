@@ -158,3 +158,5 @@ C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\PagedList.Mvc.xml
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker\bin\SalesTracker.BusinessLogic.pdb
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.BusinessLogic.dll
+C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker\bin\SalesTracker.BusinessLogic.pdb

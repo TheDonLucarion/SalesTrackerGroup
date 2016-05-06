@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
@@ -26,9 +27,13 @@ namespace SalesTracker.Models
         [Required]
         public string Address { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal SalesPrice { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal TotalCommission { get; set; }
 
@@ -53,6 +58,8 @@ namespace SalesTracker.Models
         [Required]
         public decimal EnrollPCC { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal CharitbaleContribution { get; set; }
 
