@@ -29,9 +29,13 @@ namespace SalesTracker.Data
         [Required]
         public string Address { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal SalesPrice { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal TotalCommission { get; set; }
 
@@ -59,6 +63,8 @@ namespace SalesTracker.Data
         [Required]
         public decimal CharitbaleContribution { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal Commission { get; set; }
 
