@@ -34,24 +34,33 @@ namespace SalesTracker.Models
         [Required]
         public decimal TotalCommission { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:P2}")]
         [Required]
         public decimal ThirdPartyReferral { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:P2}")]
         [Required]
         public decimal RoyaltyFee { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:P2}")]
         [Required]
         public decimal AgentSplit { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:P2}")]
         [Required]
         public decimal ReloSplit { get; set; }
 
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:P2}")]
         [Required]
         public decimal Base { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal APCF { get; set; }
 
+        [DataType(DataType.Currency)]
+        [Column(TypeName = "money")]
         [Required]
         public decimal EnrollPCC { get; set; }
 
