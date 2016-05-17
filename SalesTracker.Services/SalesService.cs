@@ -91,7 +91,7 @@ namespace SalesTracker.Services
                         LastName = vm.LastName,
                         Address = vm.Address,
                         SalesPrice = vm.SalesPrice,
-                        TotalCommission = vm.TotalCommission,
+                        CommPercentage = vm.CommPercentage,
                         ThirdPartyReferral = vm.ThirdPartyReferral,
                         RoyaltyFee = vm.RoyaltyFee,
                         AgentSplit = vm.AgentSplit,
@@ -103,7 +103,7 @@ namespace SalesTracker.Services
                         Source = vm.Source
                     };
 
-                CommissionLogic Cl = new CommissionLogic(entity.SalesPrice, entity.TotalCommission, entity.ThirdPartyReferral, entity.RoyaltyFee, entity.AgentSplit, entity.ReloSplit, entity.Base, entity.APCF, entity.EnrollPCC, entity.CharitbaleContribution);
+                CommissionLogic Cl = new CommissionLogic(entity.SalesPrice, entity.TotalCommission, entity.ThirdPartyReferral, entity.RoyaltyFee, entity.AgentSplit, entity.ReloSplit, entity.Base, entity.APCF, entity.EnrollPCC, entity.CharitbaleContribution, entity.CommPercentage);
 
                 entity.Commission = Cl.DoMath();
 

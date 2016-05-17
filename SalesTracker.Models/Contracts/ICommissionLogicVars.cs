@@ -38,6 +38,8 @@ namespace SalesTracker.BusinessLogic
         public decimal CharitbaleContribution { get; set; }
 
         public decimal Commission { get; set; }
+        
+        public decimal CommPercentage { get; set; }
 
         public string Source { get; set; }
     }

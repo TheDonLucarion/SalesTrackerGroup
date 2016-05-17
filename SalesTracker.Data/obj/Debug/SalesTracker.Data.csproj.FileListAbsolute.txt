@@ -129,3 +129,4 @@ C:\Users\mifiore\Documents\Projects\SalesTracker\SalesTracker.Data\obj\Debug\Sal
 =======
 C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.MoneyDataType.resources
 >>>>>>> 4dcaa174487eb2c8070bccd39261800c4db3c2e3
+C:\Users\Jennayeary\Desktop\dev\SalesTrackerGroup\SalesTracker.Data\obj\Debug\SalesTracker.Data.Migrations.Money.resources
