@@ -1,0 +1,84 @@
+﻿@model PagedList.IPagedList<SalesTracker.Data.SalesData>
+    @using PagedList;
+    @using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Header Change</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", "Sales", new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("SalesId", "Index", new { sortOrder = ViewBag.SalesIdSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            
+            @Html.ActionLink("Date", "Index", new { sortOrder = ViewBag.DateSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("FirstName", "Index", new { sortOrder = ViewBag.FirstNameSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("LastName", "Index", new { sortOrder = ViewBag.LastNameSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Address", "Index", new { sortOrder = ViewBag.AddressSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("SalesPrice", "Index", new { sortOrder = ViewBag.SalesPriceSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Commission", "Index", new { sortOrder = ViewBag.CommSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Source", "Index", new { sortOrder = ViewBag.SourceSort, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FirstName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LastName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SalesPrice)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Commission)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Source)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.SalesId }) |
+            @Html.ActionLink("Details", "Details", new { id = item.SalesId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.SalesId })
+        </td>
+    </tr>
+}
+
+</table>
+<br />
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index",new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter }))

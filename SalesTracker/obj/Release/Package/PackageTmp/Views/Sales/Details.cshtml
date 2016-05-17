@@ -1,0 +1,138 @@
+﻿@model SalesTracker.Models.SalesDetailModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SalesDetailModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SalesPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SalesPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalCommission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalCommission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoyaltyFee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoyaltyFee)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.AgentSplit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AgentSplit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReloSplit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReloSplit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Base)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Base)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.APCF)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.APCF)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EnrollPCC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnrollPCC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CharitbaleContribution)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CharitbaleContribution)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Commission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Commission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Source)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Source)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SalesId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
